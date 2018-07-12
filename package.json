@@ -1,0 +1,19 @@
+{
+  "name": "reverse-acronym-generator",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "buzzwords": "^1.2.0",
+    "mnemonic-words": "^1.0.0",
+    "profanities": "^2.6.0",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-scripts": "1.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build && cp build/index.html build/200.html",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
